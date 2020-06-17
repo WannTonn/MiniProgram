@@ -8,9 +8,9 @@
         <swiper-slide>
           <img src="./imgs/banner02.png" width="100%" alt />
         </swiper-slide>
-        <swiper-slide>3</swiper-slide>
-        <swiper-slide>4</swiper-slide>
-
+        <swiper-slide>
+          <img src="./imgs/banner03.png" width="100%" alt />
+        </swiper-slide>
         <div class="swiper-button-prev swiper-button-black" slot="button-prev"></div>
       <div class="swiper-button-next swiper-button-black" slot="button-next"></div>
       </swiper>
