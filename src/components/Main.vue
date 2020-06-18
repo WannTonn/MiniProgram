@@ -20,9 +20,9 @@
       <div class="poster"></div>
     </div>
     <div class="intro-text">
-      福州会展业按下“重启键”！经福州市政府同意，2020第35届中国·福州国际汽车展览会（以下简称“福州五一国际车展”）将于6月25日至28日在福州海峡国际会展中心举办，<br />
-      展出规模6万平方米，150多家车商参展，呈现一场集品牌价值和产品技术内涵、时尚魅力为一体的汽车盛宴，降低疫情给汽车产业带来的影响，促进消费回暖，助推福州经济发展。<br />
-      本届车展，是福州市贯彻落实党中央、国务院，省委、省政府有关决策部署，不遗余力推动市场经济复苏，提振消费信心、提升城市活力的重要举措，也是疫情发生后的福州首展。<br />
+      福州会展业按下“重启键”！经福州市政府同意，2020第35届中国·福州国际汽车展览会（以下简称“福州五一国际车展”）<br />
+      将于6月25日至28日在福州海峡国际会展中心举办，展出规模6万平方米，150多家车商参展，<br />呈现一场集品牌价值和产品技术内涵、时尚魅力为一体的汽车盛宴，降低疫情给汽车产业带来的影响，促进消费回暖，<br />
+      助推福州经济发展。本届车展，是福州市贯彻落实党中央、国务院，省委、省政府有关决策部署，<br />不遗余力推动市场经济复苏，提振消费信心、提升城市活力的重要举措，也是疫情发生后的福州首展。<br />
       业内人士表示，车展的举办，将为疫情防控常态化实现福州会展业复苏创造可借鉴的实践经验。
     </div>
     <div class="menu-wrapper">
@@ -88,8 +88,8 @@ export default {
 <style lang="less" scoped>
 .main-wrapper {
   .intro-wrapper {
-    width: 1000px;
-    padding-bottom: 60px;
+    width: 980px;
+    padding-bottom: 30px;
     margin: 0 auto;
     text-align: center;
     .title {
@@ -102,7 +102,7 @@ export default {
       border-bottom: 4px solid #2589e5;
     }
     .poster {
-      margin-top: 40px;
+      margin-top: 30px;
       background-image: url('./imgs/news.jpg');
       width: 100%;
       height: 180px;
@@ -110,26 +110,24 @@ export default {
     }
   }
   .intro-text {
+    width: 980px;
+    margin: 0 auto;
     padding: 100px 0;
     height: 100px;
-    line-height: 2;
+    line-height: 1.5;
     text-align: center;
     background-image: url('./imgs/introBGI.jpeg');
     background-size: 100% 100%;
     color: #fff;
   }
   .menu-wrapper {
-    margin: 60px auto;
-    padding: 30px 0;
-    width: 1000px;
+    margin: 30px auto;
+    width: 980px;
     display: flex;
-    justify-content: center;
-    background-image: url('./imgs/introBGI.jpeg');
-    background-size: 100% 100%;
+    justify-content: space-between;
     .menu-item {
-      width: 200px;
-      height: 200px;
-      margin: 0 25px;
+      width: 250px;
+      height: 250px;
       &.gg1 {
         background-image: url('./imgs/menu1.png');
         background-size: 100% 100%;
@@ -145,7 +143,7 @@ export default {
     }
   }
   .news-wrapper {
-    width: 1000px;
+    width: 980px;
     margin: 0 auto;
     .title {
       margin: 0 auto;
